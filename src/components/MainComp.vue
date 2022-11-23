@@ -32,13 +32,13 @@ import MainBott from './MainCompBott.vue'
 .section-1{
 
     background-color: rgba(28, 28, 28, 1);
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .section-2{
 
     background-color: rgba(2, 130, 249, 1);
-    padding: 25px 0;
+    padding: 50px 0;
 }
 
 

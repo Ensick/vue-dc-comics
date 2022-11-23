@@ -41,24 +41,24 @@
 
     .main-bott{
 
-        width: 70%;
+        width: 68%;
         margin-inline: auto; 
         display: flex;
         justify-content: space-between;
 
         div{
 
+            cursor: pointer;
             display: flex;
             align-items: center;
 
             img{
-                 width: 70px;
-                 height: 90px;
+                 width: 60px;
+                 height: 85px;
             }
 
             span{
 
-                cursor: pointer;
                 font-size: 1.2rem;
                 padding-inline-start: 15px;
                 color: white;
