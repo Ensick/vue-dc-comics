@@ -57,6 +57,12 @@ export default {
 
 <style scoped lang="scss">
 
+  img{
+
+    cursor: pointer;
+    width: 100%;
+  }
+
   nav{
 
     display: flex;
@@ -74,20 +80,23 @@ export default {
       li{
 
         list-style-type: none;
-        margin-inline-start: 20px;
+        padding-inline-start: 20px;
         color: black;
-        padding-bottom: 50px;
 
-        &:hover{
-        
-          color: rgba(12, 124, 236, 1) ;
-          border-bottom: 5px inset rgba(12, 124, 236, 1); 
-        }
+       
 
         a{
 
           color: inherit;
           text-decoration: none;
+
+           &:hover{
+        
+            color: rgba(12, 124, 236, 1) ;
+            box-shadow: 0px 4px 0px rgba(12, 124, 236, 1);
+            padding-bottom: 56px; 
+          
+          }
         }
       }
     }

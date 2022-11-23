@@ -17,7 +17,7 @@
         </div>
 
         <div>
-            <img src="../assets/img/buy-comics-shop-locator.png" alt="img">
+            <img class="w-small" src="../assets/img/buy-comics-shop-locator.png" alt="img">
             <span>COMIC SHOP LOCATOR</span>
         </div>
 
@@ -54,12 +54,17 @@
 
             img{
                  width: 60px;
-                 height: 85px;
+                 height: 75px;
+            }
+
+            .w-small{
+
+                width: 50px;
             }
 
             span{
 
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 padding-inline-start: 15px;
                 color: white;
             }
