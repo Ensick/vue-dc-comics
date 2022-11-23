@@ -62,7 +62,10 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 0;
+
+    width: 70%;
+    margin-inline: auto;
   
     ul{
 

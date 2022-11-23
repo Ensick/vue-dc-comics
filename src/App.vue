@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <div class="container">
+    <div>
        <HeaderComp/>
+       <MainComp/>
     </div>
   </div>
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
+import MainComp from './components/MainComp.vue'
 
 export default {
   name: 'App',
   components: {
 
     HeaderComp,
+    MainComp,
 
   }
 }
@@ -29,12 +32,6 @@ export default {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-}
-
-.container{
-
-  width: 70%;
-  margin-inline: auto;
 }
 
 </style>
