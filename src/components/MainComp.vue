@@ -2,7 +2,7 @@
 <template>
     <main>
         <div class="jumbo">
-            <span class="btn-jumbo btn-blue">
+            <span class="label-jumbo">
                 CURRENT SERIES
             </span>
         </div>
@@ -49,8 +49,13 @@ import MainBott from './MainCompBott.vue'
     height: 400px;
     position: relative;
 
-    .btn-jumbo{
+    .label-jumbo{
 
+        background-color: rgba(2, 130, 249, 1);
+        color: white;
+        padding: 15px;
+        font-weight: bold;
+        filter: brightness(0.80);
         position: absolute;
         bottom: -6%;
         left: 20%;
