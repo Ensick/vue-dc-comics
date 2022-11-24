@@ -1,6 +1,12 @@
 
 <template>
     <main>
+        <div class="jumbo">
+            <span class="btn-jumbo">
+                CURRENT SERIES
+            </span>
+        </div>
+
         <div class="section-1">
             <MainTop/>
         </div>
@@ -28,6 +34,26 @@ import MainBott from './MainCompBott.vue'
 </script>
 
 <style lang="scss" scoped>
+
+ .jumbo{
+        background-image: url('../assets/img/jumbotron.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+
+        .btn-jumbo{
+
+            background-color: rgba(2, 130, 249, 1);
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            position: absolute;
+            bottom: -6%;
+            left: 20%;
+        }
+    }
 
 .section-1{
 
