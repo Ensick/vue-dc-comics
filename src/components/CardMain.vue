@@ -28,6 +28,7 @@
 
         width: calc(100% / 6);
         padding: 15px;
+        cursor: pointer;
 
         .card{
 
@@ -39,6 +40,12 @@
             padding-bottom: 10px;
             width: 100%;
             display: block;  
+            filter: brightness(0.80);
+
+            &:hover{
+
+                filter: brightness(1.20);
+            }
         }
 
         span{

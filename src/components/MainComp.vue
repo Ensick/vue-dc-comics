@@ -2,13 +2,19 @@
 <template>
     <main>
         <div class="jumbo">
-            <span class="btn-jumbo">
+            <span class="btn-jumbo btn-blue">
                 CURRENT SERIES
             </span>
         </div>
 
         <div class="section-1">
+
             <MainTop/>
+            <div class="cont-button">
+                <span class="btn-blue">LOAD MORE</span>
+            </div>
+            
+
         </div>
 
         <div class="section-2">
@@ -36,29 +42,53 @@ import MainBott from './MainCompBott.vue'
 <style lang="scss" scoped>
 
  .jumbo{
-        background-image: url('../assets/img/jumbotron.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 400px;
-        position: relative;
 
-        .btn-jumbo{
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
 
-            background-color: rgba(2, 130, 249, 1);
-            color: white;
-            padding: 15px;
-            font-weight: bold;
-            cursor: pointer;
-            position: absolute;
-            bottom: -6%;
-            left: 20%;
-        }
+    .btn-jumbo{
+
+        position: absolute;
+        bottom: -6%;
+        left: 20%;
     }
+}
+
+ .btn-blue{
+
+    background-color: rgba(2, 130, 249, 1);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    filter: brightness(0.80);
+
+    &:hover{
+
+        filter: brightness(1.10);
+    }
+}
 
 .section-1{
 
     background-color: rgba(28, 28, 28, 1);
     padding: 80px 0;
+
+    .cont-button{
+
+        width: 70%;
+        margin-inline: auto;
+        text-align: center;
+
+        span{
+
+            margin: 0 auto;
+        }
+    }
+    
 }
 
 .section-2{
